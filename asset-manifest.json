@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Melody_Player/static/css/main.6cd0c7d3.css",
+    "main.js": "/Melody_Player/static/js/main.279971ff.js",
+    "index.html": "/Melody_Player/index.html",
+    "main.6cd0c7d3.css.map": "/Melody_Player/static/css/main.6cd0c7d3.css.map",
+    "main.279971ff.js.map": "/Melody_Player/static/js/main.279971ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cd0c7d3.css",
+    "static/js/main.279971ff.js"
+  ]
+}
