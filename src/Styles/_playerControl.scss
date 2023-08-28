@@ -1,0 +1,25 @@
+.player-container {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .time-control {
+    input {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .player-container {
+    .time-control {
+      width: 90%;
+    }
+    .player-icon {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.song-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .song-name {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    color: rgb(56, 54, 54);
+  }
+  .song-cover {
+    width: 20%; //give width in percent
+    border-radius: 50%;
+  }
+  .song-artist {
+    font-size: 1rem;
+    color: rgb(56, 54, 54);
+  }
+}
+.time-control {
+  width: 50%;
+  display: flex;
+  input {
+    width: 100%;
+    padding: 1rem 0rem;
+  }
+  p {
+    padding: 1rem;
+  }
+}
+.player-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  svg {
+    cursor: pointer;
+  }
+}
+//note your media query doesn't work if you not match same herarchy as you use in scss
+@media screen and (max-width: 768px) {
+  .song-container {
+    .song-cover {
+      width: 50%; //give width in percent
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.song-info-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 0rem 1rem;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(142, 247, 238);
+  }
+
+  .song-img {
+    img {
+      width: 8rem;
+      border-radius: 50%;
+    }
+  }
+  .song-data {
+    .title,
+    .artist {
+      color: rgb(82, 80, 80);
+      font-weight: bold;
+    }
+  }
+}
+.selected {
+  background-color: aqua;
+}
