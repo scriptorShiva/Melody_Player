@@ -41,7 +41,10 @@ export default function SongsInfo({
         onClick={songSelectorHandler}
       >
         <div className="song-img">
-          <img src={selectedSong.cover} alt="img" />
+          <img
+            src={`${process.env.PUBLIC_URL}${selectedSong.cover}`}
+            alt="img"
+          />
         </div>
         <div className="song-data">
           <p className="title">{selectedSong.name}</p>

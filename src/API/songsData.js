@@ -1,3 +1,4 @@
+// src/API/songsData.js
 import { v4 as uuidv4 } from "uuid";
 
 const songsData = [
@@ -8,68 +9,51 @@ const songsData = [
   // active: false, //it tells whether your song playing right now or not.
   // sliderColor: ["", ""],
   // audio: "song Link",
-    {
-    name: "Keep Going",
-    cover:
-      "https://drive.google.com/file/d/1ZQnWYppQ_gknNizoow259cg3uenHBPLW/view?usp=drive_link",
-    artist: "Swørn",
-    audio: "https://drive.google.com/file/d/1SrWhQr_NcgHJKtmaw12quxksMoKK1HYA/view?usp=drive_link",
-    color: ["#CD607D", "#c94043"],
-    id: uuidv4(),
-    active: false,
-  },
   {
-    name: "Beaver Creek",
-    cover:
-      "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-    artist: "Aso, Middle School, Aviino",
-    audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
-    color: ["#205950", "#2ab3bf"],
+    name: "Keep Going",
+    cover: "/music_files/sworn-artist.jpg",
+    artist: "Swørn",
+    audio: "/music_files/keep-going.mp3",
+    color: ["#CD607D", "#c94043"],
     id: uuidv4(),
     active: true,
   },
   {
     name: "Daylight",
-    cover:
-      "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+    cover: "/music_files/daylight.jpg",
     artist: "Aiguille",
-    audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
+    audio: "/music_files/daylight.mp3",
     color: ["#EF8EA9", "#ab417f"],
     id: uuidv4(),
     active: false,
   },
   {
-    name: "Nightfall",
-    cover:
-      "https://chillhop.com/wp-content/uploads/2022/05/1c9e8f008e40a1d5c496a85b2aaf8c96a14a3c88-1024x1024.jpg",
-    artist: "Aiguille",
-    audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
-    color: ["#EF8EA9", "#ab417f"],
-    id: uuidv4(),
-    active: false,
-  },
-  {
-    name: "Reflection",
-    cover:
-      "https://chillhop.com/wp-content/uploads/2021/09/2ce75252f5419a45d76bb93424ac1eae3e688b17-1024x1024.jpg",
-    artist: "Swørn",
-    audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
-    color: ["#CD607D", "#c94043"],
-    id: uuidv4(),
-    active: false,
-  },
-  {
-    name: "Under the City Stars",
-    cover:
-      "https://chillhop.com/wp-content/uploads/2022/07/49bc1653b33bd42e570ecdeba7be86e8bd1b5c38-1024x1024.jpg",
-    artist: "Aso, Middle School, Aviino",
-    audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
+    name: "Avino Melody",
+    cover: "/music_files/avinii-artist.jpg",
+    artist: "Avino",
+    audio: "/music_files/avino-melody.mp3",
     color: ["#205950", "#2ab3bf"],
     id: uuidv4(),
     active: false,
   },
-
-  //ADD MORE HERE
+  {
+    name: "On My Way",
+    cover: "/music_files/enhanted.jpg",
+    artist: "Alan Walker",
+    audio: "/music_files/on-my-way.mp3",
+    color: ["#EF8EA9", "#ab417f"],
+    id: uuidv4(),
+    active: false,
+  },
+  {
+    name: "Post Malone Spiderman",
+    cover: "/music_files/sunflower.jpg",
+    artist: "Post Malone",
+    audio: "/music_files/post-malone-spiderman.mp3",
+    color: ["#CD607D", "#c94043"],
+    id: uuidv4(),
+    active: false,
+  },
 ];
 
 export default songsData;

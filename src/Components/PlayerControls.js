@@ -143,7 +143,7 @@ export default function PlayerControls({
         {/* add audio ref for accessing */}
         <audio
           ref={audioRef}
-          src={currSong.audio}
+          src={`${process.env.PUBLIC_URL}${currSong.audio}`}
           onTimeUpdate={timeUpdateHandler}
         ></audio>
       </div>
