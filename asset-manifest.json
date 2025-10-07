@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Melody_Player/static/css/main.6cd0c7d3.css",
-    "main.js": "/Melody_Player/static/js/main.279971ff.js",
-    "index.html": "/Melody_Player/index.html",
-    "main.6cd0c7d3.css.map": "/Melody_Player/static/css/main.6cd0c7d3.css.map",
-    "main.279971ff.js.map": "/Melody_Player/static/js/main.279971ff.js.map"
+    "main.css": "/music-app-in-react/static/css/main.6cd0c7d3.css",
+    "main.js": "/music-app-in-react/static/js/main.f982bf14.js",
+    "index.html": "/music-app-in-react/index.html",
+    "main.6cd0c7d3.css.map": "/music-app-in-react/static/css/main.6cd0c7d3.css.map",
+    "main.f982bf14.js.map": "/music-app-in-react/static/js/main.f982bf14.js.map"
   },
   "entrypoints": [
     "static/css/main.6cd0c7d3.css",
-    "static/js/main.279971ff.js"
+    "static/js/main.f982bf14.js"
   ]
 }
