@@ -8,6 +8,16 @@ const songsData = [
   // active: false, //it tells whether your song playing right now or not.
   // sliderColor: ["", ""],
   // audio: "song Link",
+    {
+    name: "Keep Going",
+    cover:
+      "https://drive.google.com/file/d/1ZQnWYppQ_gknNizoow259cg3uenHBPLW/view?usp=drive_link",
+    artist: "Swørn",
+    audio: "https://drive.google.com/file/d/1SrWhQr_NcgHJKtmaw12quxksMoKK1HYA/view?usp=drive_link",
+    color: ["#CD607D", "#c94043"],
+    id: uuidv4(),
+    active: false,
+  },
   {
     name: "Beaver Creek",
     cover:
@@ -25,16 +35,6 @@ const songsData = [
     artist: "Aiguille",
     audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
     color: ["#EF8EA9", "#ab417f"],
-    id: uuidv4(),
-    active: false,
-  },
-  {
-    name: "Keep Going",
-    cover:
-      "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-    artist: "Swørn",
-    audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
-    color: ["#CD607D", "#c94043"],
     id: uuidv4(),
     active: false,
   },
